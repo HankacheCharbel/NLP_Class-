@@ -1,0 +1,23 @@
+# Requirements for NLP_Class-
+# Minimal reproducible environment for notebooks and scripts
+jupyter
+notebook
+ipykernel
+numpy>=1.21
+pandas>=1.3
+scikit-learn>=1.0
+nltk>=3.6
+spacy>=3.2
+transformers>=4.0
+torch>=1.10
+matplotlib>=3.4
+seaborn
+gensim
+tqdm
+regex
+requests
+
+# Notes:
+# After installing, download NLP models used in the notebooks/scripts:
+# python -m spacy download en_core_web_sm
+# python -m nltk.downloader punkt wordnet stopwords
